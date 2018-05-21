@@ -1,9 +1,9 @@
 require '../../util/oop.rb'
 
 class Subscriber
-    incldue OOP
+  include OOP
 
-    def notify
-        abstract_method
-    end
+  def notify
+    abstract_method
+  end
 end

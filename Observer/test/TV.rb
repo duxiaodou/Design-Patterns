@@ -5,7 +5,7 @@ publisher = Publisher.new
 subscriber_one = Subscriber.new
 subscriber_two = Subscriber.new
 
-# subscribe 
+# subscribe
 publisher.subscribe(subscriber_one)
 publisher.subscribe(subscriber_two)
 

@@ -1,17 +1,19 @@
 require '../../util/oop.rb'
 
-class Subject
+class Condiment
   include OOP
 
-  def subscribe(_subscriber)
+  attr_accessor :description
+
+  def description=(_description)
     abstract_method
   end
 
-  def unsubscribe(_subscriber)
+  def description
     abstract_method
   end
 
-  def notify(_data)
+  def cost
     abstract_method
   end
 end

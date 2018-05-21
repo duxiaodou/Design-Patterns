@@ -1,9 +1,9 @@
 require '../../util/oop.rb'
 
 class QuackBehavior
-    include OOP
+  include OOP
 
-    def quack
-        abstract_method
-    end
+  def quack
+    abstract_method
+  end
 end

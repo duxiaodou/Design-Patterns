@@ -1,28 +1,23 @@
 require '../implement/Fly.rb'
 require '../implement/Quack.rb'
 
-
 class Duck
-    attr_accessor :flyBehavior, :quackBehavior
+  attr_accessor :flyBehavior, :quackBehavior
 
-    def initialize
-        @flyBehavior = Fly.new
-        @quackBehavior = Quack.new
-    end
+  def initialize
+    @flyBehavior = Fly.new
+    @quackBehavior = Quack.new
+  end
 
-    def flyBehavior=(fly)
-        @flyBehavior = fly
-    end
+  attr_writer :flyBehavior
 
-    def quackBehavior=(quack)
-        @quackBehavior = quack
-    end
+  attr_writer :quackBehavior
 
-    def fly
-        @flyBehavior.fly
-    end
+  def fly
+    @flyBehavior.fly
+  end
 
-    def quack
-        @quackBehavior.quack
-    end
+  def quack
+    @quackBehavior.quack
+  end
 end

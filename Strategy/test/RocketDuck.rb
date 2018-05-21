@@ -3,9 +3,9 @@ require '../implement/QuackNoWay.rb'
 require '../implement/FlyJet.rb'
 
 class RocketDuck < Duck
-    def initialize
-        super
-    end
+  def initialize
+    super
+  end
 end
 
 rocketDuck = RocketDuck.new

@@ -2,9 +2,9 @@ require '../Duck.rb'
 require '../implement/FlyNoWay.rb'
 
 class ModelDuck < Duck
-    def initialize
-        super
-    end
+  def initialize
+    super
+  end
 end
 
 modelDuck = ModelDuck.new
