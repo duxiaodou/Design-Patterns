@@ -1,7 +1,10 @@
 class Singleton
   @@uniqueInstance = nil
-  @@count = 0
 
+  def initialize
+    @count = 0
+  end
+  
   def self.instance
     unless @@uniqueInstance
       @@uniqueInstance = new
@@ -10,7 +13,7 @@ class Singleton
   end
 
   def plus
-    @@count += 1
+    @count += 1
   end
 
   private_class_method :new
