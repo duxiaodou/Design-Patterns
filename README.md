@@ -4,3 +4,4 @@
 3. Decorate
 4. Factory
 5. Singleton
+6. Command
