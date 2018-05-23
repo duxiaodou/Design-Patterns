@@ -5,3 +5,5 @@
 4. Factory
 5. Singleton
 6. Command
+7. Adapter
+8. Facade
