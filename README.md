@@ -7,3 +7,4 @@
 6. Command
 7. Adapter
 8. Facade
+9. Template
